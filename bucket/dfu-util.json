@@ -1,0 +1,16 @@
+{
+    "homepage": "http://dfu-util.sourceforge.net/",
+    "description": "Device Firmware Update Utility: ",
+    "version": "0.9",
+    "license": "GPL Version 2",
+    "url": "http://dfu-util.sourceforge.net/releases/dfu-util-0.9-win64.zip",
+    "extract_dir": "dfu-util-0.9-win64",
+    "hash":"sha1:ddafb0b6c0c69dccbad903fe0322791b5f95b2fa",
+    "bin": [
+        ["dfu-util.exe", "dfu-util"],
+        ["dfu-suffix.exe", "dfu-suffix"],
+        ["dfu-prefix.exe", "dfu-prefix"],
+        ["dfu-util.exe","dfu"],
+        ["dfu-util-static.exe", "dfu-util-static"]
+    ]
+}
