@@ -5,7 +5,7 @@ branches:
 build: off
 deploy: off
 clone_depth: 2
-image: Visual Studio 2019
+image: [Visual Studio 2019]
 environment:
   scoop: C:\projects\scoop
   scoop_home: C:\projects\scoop
@@ -21,7 +21,7 @@ cache:
 matrix:
   fast_finish: true
 init:
-  - ps: if(!(Test-Path "$env:SCOOP")) { git clone -q --depth=1 "https://github.com/lukesampson/scoop" "$env:SCOOP" }
+  - ps: if(!(Test-Path "$env:SCOOP")) { git clone -q --depth=1 "https://github.com/skyhoshi/scoop" "$env:SCOOP" }
 for:
   - matrix:
       only:
