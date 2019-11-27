@@ -1,9 +1,11 @@
 {
     "homepage": "https://www.visualstudio.com",
     "description": "Visual Studio Installer",
-    "version": "2019.10.7",
+    "version": "2019.COMMUNITY.local-test.20191125.2040",
     "license": "",
-    "url": "https://download.visualstudio.microsoft.com/download/pr/e58a94db-93b0-4173-b26b-fc5f5c1bef7a/c6036f126e6fa8b33336d2abf5dc564768bbe8e25515de5fb920060564645ad7/vs_Community.exe",
-    "hash":"sha256:C6036F126E6FA8B33336D2ABF5DC564768BBE8E25515DE5FB920060564645AD7"
-
+    "url": "https://download.visualstudio.microsoft.com/download/pr/e58a94db-93b0-4173-b26b-fc5f5c1bef7a/c6036f126e6fa8b33336d2abf5dc564768bbe8e25515de5fb920060564645ad7/vs_Community.exe#/vs_installer.exe",
+    "hash":"sha256:C6036F126E6FA8B33336D2ABF5DC564768BBE8E25515DE5FB920060564645AD7",
+    "installer": {
+        "script": ".$dir\\vs_Community.exe"
+    }
 }
